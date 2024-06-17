@@ -25,7 +25,7 @@ FILE_TYPES = {
 
 def get_config_path():
     appdata_path = os.getenv('APPDATA')
-    config_path = os.path.join(appdata_path, 'Bless Sorter', 'config.json')
+    config_path = os.path.join(appdata_path, 'SimpleSorter', 'config.json')
     return config_path
     
 
